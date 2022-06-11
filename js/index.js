@@ -6,8 +6,8 @@ function pop() {
   image.classList.add('pop');
   player.play();
   setTimeout(() => {
-    image.src = `/assets/png/${Math.floor(Math.random() * 3) + 1}.png`;
-    player.src = `/assets/mp3/${Math.floor(Math.random() * 2) + 1}.mp3`;
+    image.src = `assets/png/${Math.floor(Math.random() * 3) + 1}.png`;
+    player.src = `assets/mp3/${Math.floor(Math.random() * 2) + 1}.mp3`;
     image.classList.remove('pop');
     image.classList.add('make');
   }, 600);
